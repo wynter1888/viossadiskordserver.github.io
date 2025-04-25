@@ -1,0 +1,68 @@
+/* Base styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 40px 20px;
+    box-sizing: border-box;
+  }
+
+  .section .content {
+    max-width: 600px;
+  }
+
+  /* Align left or right */
+  .left .content {
+    text-align: left;
+    align-self: center;
+  }
+
+  .right .content {
+    text-align: right;
+    align-self: center;
+  }
+
+  /* Background colors */
+  .skype-blue {
+    background-color: #00AFF0;
+    color: white;
+  }
+
+  .white {
+    background-color: white;
+    color: #333;
+  }
+
+  /* Header styles */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+  }
+
+  /* Paragraph styles */
+  p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+
+  /* Flag Location */
+  .flag-icon {
+    height: 32px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 0px;
+  }
+
+  /* Menu bar Location */
+  .navbar {
+    height: auto;
+    width: auto;
+    vertical-align: right;
+    margin-right: 256px
+  }

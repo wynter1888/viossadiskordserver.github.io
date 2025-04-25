@@ -1,11 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Viossa</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-	testing
+
+  <!-- Menu bar -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body style="background-color:white;">
+
+  <img src="https://vikoli.org/images/c/ca/Flakka-stor.png" alt="Official" class="flag-icon">
+
+<div class="navbar">
+  <a href="#home">Home</a>
+
+  <div class="dropdown">
+    <button class="dropbtn">Cultural Resources
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Events</a>
+      <a href="#">Literature</a>
+      <a href="#">Music</a>
+      <a href="#">Vizine</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">Learning Resources
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Vikoli</a>
+      <a href="#">Duolingo</a>
+      <a href="#">Other</a>
+    </div>
+  </div>
+</div>
+
+  <!-- Section 1: Viossa -->
+  <section class="section left skype-blue">
+    <div class="content">
+      <h1>Viossa</h1>
+      <p>Viossa emerged in 2014 as the result of a linguistic experiment conducted online that intended to simulate the formation of a pidgin language. A pidgin language is a simplified language resulting from contact between multiple languages where no common language exists.  </p>
+    </div>
+  </section>
+
+  <!-- Section 2: About -->
+  <section class="section right white">
+    <div class="content">
+      <h1>About</h1>
+      Unlike standard pidgins, which usually only have two to three contributor languages, Viossa is made from more than 50 languages. This is because no one person created it. Instead, people from all around the world helped to contribute to Viossa's vocabulary. 
+      <br>
+      <br>
+      However, many words now have entirely different meanings to when they were contributed. This is because Viossa is learnt and taught entirely by immersion. The Viossa community prohibits translation, meaning no word has a set meaning.
+      </p>
+</div>
+  </section>
+  <!-- Ranka piechart and Ohmi's dialect page here-->
+
+
+  <!-- Section 3: Community -->
+  <section class="section left skype-blue">
+    <div class="content">
+      <h1>Community</h1>
+      <p>The Viossa community is rich and diverse, drawing from culture and traditions from around the world. The Viossa community places an emphasis on linguistic immersion, and so heavily disincentivises prescriptivism in all aspects of speech. For many, their personal dialect is a form of self expression, their very speech becomes art. The fluid nature of Viossa and lack of defined meanings allows for the meanings and spellings of words to be used flexible for creative purposes. For this reason, poetry and songwriting are exceptionally popular within the community. </p>
+    </div>
+  </section>
+
 </body>
 </html>
